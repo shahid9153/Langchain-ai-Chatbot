@@ -61,17 +61,13 @@ GOOGLE_API_KEY=your_api_key_here
 4️⃣ Run the Chatbot
 python app.py
 
-💬 Example Interaction
 You: Hello!
-
 AI: Hi there! How can I assist you today?
 
 You: Summarize what LangChain does.
-
 AI: LangChain connects language models with data and tools to build intelligent applications.
 
 You: exit
-
 Chat ended.
 
 🧩 Project Structure
@@ -82,21 +78,18 @@ Chat ended.
  ┣ 📜 requirements.txt    # Dependencies
  ┗ 📜 README.md           # Documentation
 
+
 🧠 How It Works
 
 1️⃣ The ChatGoogleGenerativeAI class from langchain_google_genai connects to the Gemini model.
-
-2️⃣ User input is captured and sent to Gemini using .invoke().
-
-3️⃣ Gemini processes your query and returns a smart, contextual response.
-
-4️⃣ The chat continues until the user types exit.
+2️⃣ User input is captured and sent to Gemini using the .invoke() method.
+3️⃣ Gemini processes the text and returns a smart, contextual response.
+4️⃣ The loop continues until the user types exit.
 
 🚧 Future Enhancements
 
 🔹 Add memory to retain previous chat context
 🔹 Build a Streamlit-based web UI
 🔹 Integrate PDF/Text summarization
-🔹 Add voice input & speech response
-
+🔹 Add voice input & speech output
 
