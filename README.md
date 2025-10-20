@@ -43,22 +43,22 @@ With this simple yet powerful setup, you can:
 
 ## ⚙️ Installation & Setup
 
-2️⃣ Create and Activate Virtual Environment
+1️⃣ Create and Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
 # OR
 source venv/bin/activate   # On macOS/Linux
 
-3️⃣ Install Dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Add Your Gemini API Key
+3️⃣ Add Your Gemini API Key
 
 Create a file named .env in the project root and add:
 
 GOOGLE_API_KEY=your_api_key_here
 
-5️⃣ Run the Chatbot
+4️⃣ Run the Chatbot
 python app.py
 
 💬 Example Interaction
@@ -81,8 +81,11 @@ Chat ended.
 🧠 How It Works
 
 1️⃣ The ChatGoogleGenerativeAI class from langchain_google_genai connects to the Gemini model.
+
 2️⃣ User input is captured and sent to Gemini using .invoke().
+
 3️⃣ Gemini processes your query and returns a smart, contextual response.
+
 4️⃣ The chat continues until the user types exit.
 
 🚧 Future Enhancements
