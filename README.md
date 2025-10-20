@@ -82,8 +82,11 @@ Chat ended.
 🧠 How It Works
 
 1️⃣ The ChatGoogleGenerativeAI class from langchain_google_genai connects to the Gemini model.
+
 2️⃣ User input is captured and sent to Gemini using the .invoke() method.
+
 3️⃣ Gemini processes the text and returns a smart, contextual response.
+
 4️⃣ The loop continues until the user types exit.
 
 🚧 Future Enhancements
