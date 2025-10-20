@@ -57,18 +57,18 @@ pip install -r requirements.txt
 Create a file named .env in the project root and add:
 
 GOOGLE_API_KEY=your_api_key_here
----
+
 4️⃣ Run the Chatbot
 python app.py
----
+
 You: Hello!
 
 AI: Hi there! How can I assist you today?
----
+
 You: Summarize what LangChain does.
 
 AI: LangChain connects language models with data and tools to build intelligent applications.
----
+
 You: exit
 
 Chat ended.
