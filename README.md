@@ -47,28 +47,32 @@ With this simple yet powerful setup, you can:
 python -m venv venv
 venv\Scripts\activate   # On Windows
 
-source venv/bin/activate   # On macOS/Linux
 
+source venv/bin/activate   # On macOS/Linux
+---
 2️⃣ Install Dependencies
 pip install -r requirements.txt
-
+---
 3️⃣ Add Your Gemini API Key
-
 Create a file named .env in the project root and add:
 
 GOOGLE_API_KEY=your_api_key_here
-
+---
 4️⃣ Run the Chatbot
 python app.py
-
+***
 You: Hello!
+
 AI: Hi there! How can I assist you today?
-
+---
 You: Summarize what LangChain does.
-AI: LangChain connects language models with data and tools to build intelligent applications.
 
+AI: LangChain connects language models with data and tools to build intelligent applications.
+---
 You: exit
+
 Chat ended.
+***
 
 🧩 Project Structure
 
@@ -81,7 +85,7 @@ Chat ended.
  
  ┗ 📜 README.md           # Documentation
 
-
+***
 🧠 How It Works
 
 1️⃣ The ChatGoogleGenerativeAI class from langchain_google_genai connects to the Gemini model.
@@ -91,6 +95,7 @@ Chat ended.
 3️⃣ Gemini processes the text and returns a smart, contextual response.
 
 4️⃣ The loop continues until the user types exit.
+***
 
 🚧 Future Enhancements
 
@@ -99,3 +104,5 @@ Chat ended.
 🔹 Integrate PDF/Text summarization
 🔹 Add voice input & speech output
 
+***
+<h3 align="center">✨ “Small projects lead to big learning. Keep building!” 🚀</h3> ```
