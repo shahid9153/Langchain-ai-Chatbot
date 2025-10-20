@@ -74,8 +74,11 @@ Chat ended.
 
 📦 langchain-gemini-chatbot
  ┣ 📜 app.py              # Main chatbot logic
+ 
  ┣ 📜 .env                # Stores API key securely
+ 
  ┣ 📜 requirements.txt    # Dependencies
+ 
  ┗ 📜 README.md           # Documentation
 
 
