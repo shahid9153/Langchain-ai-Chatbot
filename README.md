@@ -46,7 +46,6 @@ With this simple yet powerful setup, you can:
 1️⃣ Create and Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
-# OR
 
 source venv/bin/activate   # On macOS/Linux
 
