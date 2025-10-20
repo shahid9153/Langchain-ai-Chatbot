@@ -63,12 +63,15 @@ python app.py
 
 💬 Example Interaction
 You: Hello!
+
 AI: Hi there! How can I assist you today?
 
 You: Summarize what LangChain does.
+
 AI: LangChain connects language models with data and tools to build intelligent applications.
 
 You: exit
+
 Chat ended.
 
 🧩 Project Structure
