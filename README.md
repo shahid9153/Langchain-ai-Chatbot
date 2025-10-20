@@ -77,6 +77,7 @@ Chat ended.
 🧩 Project Structure
 
 📦 langchain-gemini-chatbot
+
  ┣ 📜 app.py              # Main chatbot logic
  
  ┣ 📜 .env                # Stores API key securely
