@@ -1,4 +1,4 @@
-<h1 align="center">🤖 LangChain + Google Gemini 2.5 Flash Chatbot 💬</h1>
+<h1 align="center">🤖 LangChain Chatbot 💬</h1>
 
 <p align="center">
 A lightweight, interactive command-line chatbot powered by <b>LangChain</b> and <b>Google Gemini 2.5 Flash</b>.  
