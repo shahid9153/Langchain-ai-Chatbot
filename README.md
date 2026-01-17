@@ -97,6 +97,9 @@ Chat ended.
 3️⃣ Gemini processes the text and returns a smart, contextual response.
 
 4️⃣ The loop continues until the user types exit.
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/8583b887-8764-4e24-8aff-665e39732bd7" />
+
 ---
 
 🚧 Future Enhancements
